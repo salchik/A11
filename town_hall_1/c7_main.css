@@ -45,6 +45,36 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+}
+section h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
 
 #nav_menu ul {
 	list-style: none;
@@ -93,44 +123,19 @@ header img {
 #nav_menu a.current {
 	color: yellow;
 }
-/* the styles for the main content */
-main {
-	clear: left;
-}
-
-/* the styles for the section */
-section {
-	width: 525px;
-	float: right;
-	padding: 0 20px 20px 20px;
-}
-section h1 {
-	color: #800000;
-	font-size: 150%;
-	padding-top: .5em;
-	margin: 0;
-}
-section p {
-	padding-bottom: .5em;
-}
-section blockquote {
-	padding: 0 2em;
-	font-style: italic;
-}
-section ul {
-	padding: 0 0 .25em 1.25em;
-}
-section li {
-	padding-bottom: .35em;
-}
 
 /* the styles for the article */
 article {
 	padding: .5em 0;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
 }
 article h2 {
-	font-size: 115%;
-	padding: 0 0 .25em 0;
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
 }
 article img {
 	float: right;
@@ -149,7 +154,6 @@ aside h2 {
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
-
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
